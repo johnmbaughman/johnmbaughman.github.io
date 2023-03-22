@@ -34,6 +34,7 @@ theme_base: "dark"
 theme_switch: on
 highlighter_theme: monokai
 blog: on
+blogTitle: "Ermahgerd! Persts!"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
