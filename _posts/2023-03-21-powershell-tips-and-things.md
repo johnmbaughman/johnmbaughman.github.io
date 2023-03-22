@@ -106,7 +106,7 @@ $base64Bytes = [System.Convert]::FromBase64String($base64Exe)
 
 Now, go forth and spam... I mean use this knowledge with great responsibility.
 
-##TIP \#68: JSON: It's not just for C# anymore
+## TIP \#68: JSON: It's not just for C# anymore
 
 Ok, since PowerShell is basically a wrapper around .Net (it's written in C#, after all), it is just for C#. But not really.
 
