@@ -32,12 +32,30 @@ github_username:  johnmbaughman
 remote_theme: johnmbaughman/jekyll-theme-potato-hacker-mine
 theme_base: "dark"
 theme_switch: on
-highlighter_theme: monokai
+highlighter_theme: gruvbox
 blog: on
 blogTitle: "Ermahgerd! Persts!"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
+tool_priority:
+  - Articles
+  - Links
+  - About
+  - Funnies
+
+collections:
+  dropdown:
+    output: true
+  items:
+    output: true
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -47,12 +65,12 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
